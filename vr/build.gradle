@@ -20,7 +20,7 @@ android {
     buildToolsVersion rootProject.buildTools
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 23
         targetSdkVersion rootProject.targetSdk
         versionCode rootProject.versionCode
         versionName rootProject.versionName
@@ -54,6 +54,7 @@ dependencies {
     compile(name: "audio", ext: "aar")
     compile(name: "base", ext: "aar")
     compile(name: "common", ext: "aar")
+    compile(name: "controller", ext: "aar")
 
     compile project.depAndroidSupport
     compile project.depSupportAnnotations
